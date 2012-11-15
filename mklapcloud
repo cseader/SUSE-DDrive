@@ -19,10 +19,12 @@
 # 1) the script lapcrowbarsetup.sh (in the same directory)
 # 2) the repos.img (in the same directory)
 # 3) the sles11sp2-64.img.gz (in the same directory)
-# 4) An attached USB 3.0 hdd to create LVM's on 
-# 5) A system with at least 8GB of RAM (Recommend 16GB)
-# 6) openSUSE 12.1 or 12.2 installed (this does not work with SLES 11 SP2 because of the nested virtualization)
-# 7) pass boot parameter kvm_intel.nested=1 for nested virtualization  
+# 4) SLES 11 SP2 DVD ISO (in the same directory)
+# 5) SUSE Cloud 1.0 ISO (in the same directory)
+# 6) An attached USB 3.0 hdd to create LVM's on 
+# 7) A system with at least 8GB of RAM (Recommend 16GB)
+# 8) openSUSE 12.1 or 12.2 installed (this does not work with SLES 11 SP2 because of the nested virtualization)
+# 9) pass boot parameter kvm_intel.nested=1 for nested virtualization  
 #
 ### Creating #2 repos.img file containing all pertinent repos for SUSE Cloud
 #
